@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+body {
+  overflow: hidden;
+  transition: background-color 1s ease, color 1s ease;
+}
+
+@keyframes animate-rotate360 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate360 {
+  animation: animate-rotate360 3s linear infinite;
+}

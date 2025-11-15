@@ -39,7 +39,7 @@ const Contact = () => {
           <p className='text-sm sm:text-lg text-gray-500 sm:text-start text-center'>
             We’d love to hear from you! Fill out the form below and our team will reach out to you shortly.</p>
         </div>
-        <div className='w-full py-4 px-4 grid lg:grid-cols-2 grid-cols-1 items-start gap-4 bg-[white] dark:bg-[#292e32] rounded-md'>
+        <div className='w-full h-full py-4 px-4 grid lg:grid-cols-2 grid-cols-1 items-start gap-4 bg-[white] dark:bg-[#292e32] rounded-md'>
           <section className='bg-[#f5f5f5] dark:bg-[#212529] py-4 px-4 rounded-md w-full h-full'>
             <h1
               style={{ fontFamily: '"Momo Trust Sans", sans-serif' }}

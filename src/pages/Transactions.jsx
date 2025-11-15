@@ -58,7 +58,7 @@ const Transactions = () => {
   return (
     <div className="w-[100%] bg-[#EEEEF4] dark:bg-[#1a1d21] h-full overflow-auto">
       <DashboardHeader title={"Dashboard"} />
-      <section className="py-5 px-5 mt-6 flex items-end flex-col h-full gap-4">
+      <section className="py-5 px-5 mt-6 flex items-end flex-col w-full h-full gap-4">
         <button
           onClick={exportCSV}
           className="flex items-center gap-1 bg-purple-700 rounded-md text-white py-2 px-4"

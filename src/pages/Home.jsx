@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className='w-[100%] bg-[#EEEEF4] dark:bg-[#1a1d21] h-full overflow-auto'>
       <DashboardHeader title={"Dashboard"} />
-      <section>
+      <section className="w-full h-full">
         <div className='w-full mt-6 flex flex-col items-center justify-between py-5 px-5 bg-[white] dark:bg-[#292e32]'>
           <div className='flex w-full gap-2 items-center justify-start sm:justify-end'>
             <button className='bg-purple-700 py-3 px-6 w-[140px] rounded-lg text-white flex items-center justify-center gap-1'><span><PiHandDeposit /></span> Deposit</button>

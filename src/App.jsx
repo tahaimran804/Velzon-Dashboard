@@ -22,7 +22,7 @@ const App = () => {
   ])
 
   return (
-    <div>
+    <div className="w-full h-full">
       <ThemeProvider>
         <RouterProvider router={router} />
         <Setting />

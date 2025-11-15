@@ -18,12 +18,12 @@ const Setting = () => {
       {openThemeCustomizer && (
         <div
           onClick={() => setOpenThemeCustomizer(false)}
-          className="fixed inset-0 bg-black/20 backdrop-blur-sm transition-opacity duration-500"
+          className="fixed inset-0 z-50 bg-black/20 backdrop-blur-sm transition-opacity duration-500"
         ></div>
       )}
 
       <section
-        className={`fixed z-10 top-0 right-0 h-screen sm:w-[25rem] w-full bg-white dark:bg-[#1a1d21] transform transition-transform duration-500 ease-in-out shadow-xl 
+        className={`fixed z-60 top-0 right-0 h-screen sm:w-[25rem] w-full bg-white dark:bg-[#1a1d21] transform transition-transform duration-500 ease-in-out shadow-xl 
         ${openThemeCustomizer ? "translate-x-0" : "translate-x-full"}`}
       >
         <div className="py-4 px-4 bg-purple-700 flex items-center justify-between w-full">

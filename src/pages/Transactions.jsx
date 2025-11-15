@@ -179,7 +179,7 @@ const Transactions = () => {
           </div>
         </div>
       </section>
-      <DashboardFooter />
+      {/* <DashboardFooter /> */}
     </div>
   );
 };

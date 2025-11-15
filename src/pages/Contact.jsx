@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <div className='w-[100%] bg-[#EEEEF4] dark:bg-[#1a1d21] h-full overflow-auto'>
       <DashboardHeader title={"Dashboard"} />
-      <section className='py-5 px-5 mt-6 flex items-start flex-col gap-4'>
+      <section className='py-5 px-5 my-6 flex items-start flex-col gap-4'>
         <div className='flex sm:items-start items-center gap-1 flex-col'>
           <h1 className='md:text-4xl text-2xl  text-purple-600 font-semibold' style={{ fontFamily: '"Momo Trust Sans", sans-serif' }}>Contact Us</h1>
           <p className='text-sm sm:text-lg text-gray-500 sm:text-start text-center'>
@@ -100,7 +100,7 @@ const Contact = () => {
               <button type='submit' className='bg-purple-600 text-white py-3 px-10 rounded-md'>Submit</button>
             </form>
           </section>
-          <div className='bg-gray-100 dark:bg-[#212529]  pt-4 lg:pb-10 pb-4 px-4 w-full grid lg:grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-5 items-start rounded-md'>
+          <div className='bg-gray-100 dark:bg-[#212529]  py-4 px-4 w-full grid lg:grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-5 items-start rounded-md'>
             <div className='bg-gray-200 dark:bg-[#292e32] w-[100%] h-[100%] flex items-center gap-4 py-4 px-4 rounded-xl'>
               <span className="w-[60px] h-[60px] rounded-full flex items-center justify-center text-lg text-2xl bg-purple-600 text-white"><IoCallOutline /></span>
               <div className='flex flex-col items-start gap-1'>
@@ -138,8 +138,8 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </section >
-      <DashboardFooter />
+      </section>
+      {/* <DashboardFooter /> */}
     </div >
   )
 }

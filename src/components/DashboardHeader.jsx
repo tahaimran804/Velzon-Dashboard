@@ -9,7 +9,7 @@ const DashboardHeader = ({ title }) => {
   return (
     <div className='bg-white dark:bg-[#292e32] border-b-1 border-gray-100 dark:border-[#212529] py-4 px-6 flex items-center justify-between w-full'>
       <div className="flex items-center gap-2">
-        <span onClick={() => setOpenAsideBar(!openAsideBar)} className="text-2xl block lg:hidden cursor-pointer"><RiMenuUnfold4Fill /></span>
+        <span onClick={() => setOpenAsideBar(!openAsideBar)} className="text-2xl block lg:hidden text-black dark:text-white cursor-pointer"><RiMenuUnfold4Fill /></span>
         <h1
           style={{ fontFamily: '"Momo Trust Sans", sans-serif' }}
           className="text-3xl text-black dark:text-white font-semibold"

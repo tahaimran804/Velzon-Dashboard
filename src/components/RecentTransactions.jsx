@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiMiniCurrencyDollar } from "react-icons/hi2";
 import { FaPlus, FaMinus } from "react-icons/fa6";
-
+import { Link } from 'react-router'
 const RecentTransactions = () => {
   const transactions = [
     {
@@ -77,7 +77,9 @@ const RecentTransactions = () => {
           </li>
         ))}
       </ul>
+      <Link to={"/transactions"}>
       <button className='w-full py-2 bg-[#f5f5f5] dark:bg-[#292e32] dark:text-white text-black text-lg rounded-full'>View All</button>
+      </Link>
     </div>
   );
 };

@@ -41,7 +41,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <DashboardFooter />
+      {/* <DashboardFooter /> */}
     </div>
   )
 }

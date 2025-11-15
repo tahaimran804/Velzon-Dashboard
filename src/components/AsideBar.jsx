@@ -29,7 +29,7 @@ const AsideBar = () => {
       className={`
     fixed lg:static top-0 left-0 
     h-full 
-    bg-white dark:bg-[#212529] shadow-xl 
+    bg-white dark:bg-[#212529]
     border-r border-gray-100 dark:border-[#292e32]
     transition-transform duration-300 ease-in-out
     z-50
@@ -38,7 +38,7 @@ const AsideBar = () => {
   `}>
       <span
         onClick={() => setOpenAsideBar(!openAsideBar)}
-        className='absolute top-2 right-2 text-2xl cursor-pointer block lg:hidden'
+        className='absolute top-2 right-2 text-2xl text-black dark:text-white cursor-pointer block lg:hidden'
       >
         <MdClose />
       </span>
